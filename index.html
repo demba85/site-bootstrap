@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <title>DS Web Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+  <body>
+    <!--NAVIGATION-->
+    <div class="w3-top">
+    <div class="w3-bar w3-black">
+      <span class="branding w3-bar-item w3-mobile">DS DIGITAL SERVICES</span>
+      <span class="w3-right w3-mobile">
+        <a href="#home" class="w3-bar-item w3-button w3-mobile w3-hover-red">Home</a>
+        <a href="#about" class="w3-bar-item w3-button w3-mobile w3-hover-red">About </a>
+        <a href="#services" class="w3-bar-item w3-button w3-mobile w3-hover-red">Services </a>
+        <a href="#contact" class="w3-bar-item w3-button w3-mobile w3-hover-red">Contact</a>
+      </span>
+    </div>
+  </div>
+
+    <!--SHOWCASE-->
+    <section class="showcase">
+      <div class="w3-container w3-center">
+        <h1 class="w3-text-shadow w3-animate-opacity">Go Anywhere</h1>
+        <hr>
+        <p class="w3-animate-opacity">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise
+           en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie
+           depuis les années 1500, quand un peintre </p>
+           <button onclick="document.getElementById('start-modal').style.display='block'" class="w3-button w3-red w3-large w3-opacity">Start Here</button>
+      </div>
+    </section>
+
+    <!--SECTION 1-->
+    <section class="section w3-red w3-horer-opacity">
+      <div class="w3-container w3-center">
+        <i class="fa fa-home"></i>
+        <h2>Welcome Home</h2>
+        <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</p>
+      </div>
+    </section>
+
+    <!--SECTION 2-->
+    <section class="section w3-light-grey w3-horer-opacity">
+      <div class="w3-container w3-center">
+        <i class="fa fa-cog"></i>
+        <h2>Let's Begin</h2>
+        <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</p>
+      </div>
+    </section>
+
+    <!--ABOUT-->
+    <section id="about" class="section">
+      <div class="w3-container ">
+        <div class="w3-row-padding">
+          <div class="w3-col m5">
+            <img src="bureau1.jpg" width="380px" height="280px">
+          </div>
+          <div class="w3-col m7">
+
+            <button onclick="accFunction('what')" class="w3-button w3-block w3-red w3-left-align">
+              What We Do</button>
+
+              <div id="what" class="w3-container w3-show">
+               <h3>We Do It All</h3>
+                 <p>Qu'est-ce que le Lorem Ipsum?
+                 Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte    standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. </p>
+              </div>
+
+              <button onclick="accFunction('who')" class="w3-button w3-block w3-red w3-left-align">
+                What We Do</button>
+
+                <div id="who" class="w3-container w3-hide">
+                 <h3>We Are Acme</h3>
+                 <p>Qu'est-ce que le Lorem Ipsum?
+                    Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte  standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux. </p>
+                </div>
+
+                <button onclick="accFunction('where')" class="w3-button w3-block  w3-red w3-left-align">
+                  What We Do</button>
+
+                  <div id="where" class="w3-container w3-hide">
+                   <h3>We Are Everywhere</h3>
+                      <p>Qu'est-ce que le Lorem Ipsum?
+                      Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux. </p>
+                  </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--SERVICES HEADING-->
+    <section id="contact" class="section w3-dark-grey w3-horer-opacity">
+      <div class="w3-container w3-center">
+        <h1 class="w3-text-shadow">GET IN TOUCH</h1>
+        <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</p>
+      </div>
+    </section>
+
+    <!--SERVICES-->
+    <section id="services" class="section w3-light-grey">
+      <div class="w3-container w3-center">
+        <div class="w3-row">
+          <div class="w3-col m3">
+            <i class="fa fa-comment w3-red w3-padding-small w3-round-xlarge"></i>
+            <h3>Internet Marketing</h3>
+            <p>Lorem Ipsum est simplement du faux texte</p>
+          </div>
+          <div class="w3-col m3">
+            <i class="fa fa-search w3-red w3-padding-small w3-round-xlarge"></i>
+            <h3>SEO</h3>
+            <p>Lorem Ipsum est simplement du faux texte</p>
+          </div>
+          <div class="w3-col m3">
+            <i class="fa fa-cubes w3-red w3-padding-small w3-round-xlarge"></i>
+            <h3>Software Development</h3>
+            <p>Lorem Ipsum est simplement du faux texte</p>
+          </div>
+          <div class="w3-col m3">
+            <i class="fa fa-cloud w3-red w3-padding-small w3-round-xlarge"></i>
+            <h3>Cloud Hosting</h3>
+            <p>Lorem Ipsum est simplement du faux texte</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--CONTACT HEADING-->
+    <section id="services" class="section w3-red w3-horer-opacity">
+      <div class="w3-container w3-center">
+        <h1 class="w3-text-shadow">OUR SERVICES</h1>
+        <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</p>
+      </div>
+    </section>
+
+    <!--CONTACT-->
+    <section id="contact" class="section">
+      <div class="w3-container">
+        <div class="w3-card-4">
+
+        <div class="w3-container w3-dark-grey">
+          <h2>Contact</h2>
+        </div>
+
+        <form class="w3-container w3-padding-xlarge">
+        <label> Name</label>
+        <input class="w3-input" type="text">
+        <label>Email</label>
+        <input class="w3-input" type="text">
+        <label class="w3-input">Message</label>
+        <textarea class="w3-input w3-border" styel="resize:none"></textarea>
+        <br/><br/>
+        <button type="submit" class="w3-button w3-black">Submit</button>
+        <br/><br/>
+        </form>
+        </div>
+      </div>
+    </section>
+
+    <!--FOOTER-->
+
+    <footer class="w3-black w3-padding-xlarge w3-center">
+      <p>DS DIGITAL SERVICES &copy; 2017
+      <p>
+    </footer>
+
+    <!--MODAL-->
+
+    <div id="start-modal" class="w3-modal">
+      <div class="w3-modal-content">
+         <header class="w3-container w3-red">
+           <span onclick="getElementById('start-modal').style.display=none" class="w3-closebtn">&times;</span>
+           <h2>Get Started</h2>
+         </header>
+
+         <div class="w3-container">
+           <form>
+             <div class="w3-section">
+
+             <label>Name</label>
+             <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Name">
+             </div>
+
+             <label>Username</label>
+             <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username">
+
+             <label>Password</label>
+             <input class="w3-input w3-border w3-margin-bottom" type="password" placeholder="Enter Password">
+
+             <label>Confpassword</label>
+             <input class="w3-input w3-border w3-margin-bottom" type="password" placeholder="Enter Password">
+
+             <button class="w3-black w3-btn-block w3-section w3-padding">submit</button>
+           </div>
+           </form>
+         </div>
+      </div>
+    </div>
+
+    <script>
+    function accFunction(id) {
+        var x = document.getElementById(id);
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+    </script>
+
+
+  </body>
+  </html>
